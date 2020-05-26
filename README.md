@@ -44,6 +44,19 @@ function App() {
 }
 ```
 
+## Test
+
+```
+import VonderCardList from '.'
+
+describe('VonderCardList', () => {
+  it('is truthy', () => {
+    expect(VonderCardList).toBeTruthy()
+  })
+})
+
+```
+
 ## License
 
 MIT © [minnyww](https://github.com/minnyww)
